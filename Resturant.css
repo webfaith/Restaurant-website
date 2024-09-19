@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.first{
+    background-image: url(herone\ 5.jpg);
+    width: 1400x;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first h1{
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+    color: white; 
+    font-size: 80px;
+    padding-top: 3rem;
+}
+.first p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.second p{
+    text-align: left; 
+    color: gray; 
+    font-size: 20px;
+}
+h1{
+    text-align: left;color: white;font-size: 40px;
+}
